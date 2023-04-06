@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+.button-main {
+  /* text */
+}
+
+/* colors text on pages:
+#4D5AE5   - WEB, bottons menu(portfolio)
+#2E2F42   - STUDIO, MENU, NAMES
+#434455   - ADDRESS, <p> ,
+#FFFFFF   - HERO NAME, BUTTON HERO, bottons menu:hover ;
+#F4F4FD   - STUDIO(footer), p(footer) .
+
+background colors:
+
+#E5E5E5 
+
+#E7E9FC - top line (header) borders;
+#2E2F42 - hero image;
+#F4F4FD - section 3
+#FFFFFF - body 
+
+*/
