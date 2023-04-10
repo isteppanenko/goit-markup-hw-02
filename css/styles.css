@@ -1,28 +1,135 @@
+:root {
+  --title-text-color: #2e2f42;
+  --primary-text-color: #434455;
+  --hero-text-color: #ffffff;
+  --hero-background-color: rgba(46, 47, 66, 0.7);
+  --footer-text-color: #f4f4fd;
+  --footer-background-color: #2e2f42;
+  --buttons-primary-color: #4d5ae5;
+  --buttons-hover-color: #404bbf;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
+  background-color: #ffffff;
 }
+
+/* logo */
 .logo {
   font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 99%;
 }
-.button-main {
-  /* text */
+.logo-studio {
+  color: #2e2f42;
+}
+
+/* list */
+.list {
+  list-style: none;
+}
+
+/* site-nav */
+.site-nav .link {
+  font-size: 16px;
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 128%;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #404bbf;
+}
+/* site-contacts */
+.site-contacts .link {
+  font-size: 16px;
+  color: #434455;
+  font-weight: 400;
+  line-height: 128%;
+  text-decoration: none;
+}
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+  color: #404bbf;
+}
+/* buttons */
+.buttons {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--buttons-primary-color);
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 128%;
+}
+
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--buttons-hover-color);
+  color: #ffffff;
+}
+/* section-hero */
+.hero-section {
+  background-color: var(--footer-background-color);
+}
+.hero-title {
+  font-size: 56px;
+  color: var(--hero-text-color);
+  font-weight: 700;
+  line-height: 91%;
+}
+
+/* our-skills (main) */
+.section .title-section {
+  font-size: 36px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 95%;
+}
+.section .caption-section {
+  color: var(--title-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 102%;
+}
+.section .text-section {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 128%;
+}
+
+/* footer */
+.post-footer {
+  background-color: var(--footer-background-color);
+}
+.post-footer .text-footer {
+  font-size: 16px;
+  color: var(--footer-text-color);
+  line-height: 128%;
+}
+
+.post-footer .logo-studio {
+  color: var(--footer-text-color);
 }
 
 /* colors text on pages:
-#4D5AE5   - WEB, bottons menu(portfolio)
-#2E2F42   - STUDIO, MENU, NAMES
-#434455   - ADDRESS, <p> ,
-#FFFFFF   - HERO NAME, BUTTON HERO, bottons menu:hover ;
-#F4F4FD   - STUDIO(footer), p(footer) .
+#4D5AE5;   - WEB, bottons menu(portfolio)
+#2E2F42;   - STUDIO, MENU, NAMES  general text
+#434455;   - ADDRESS, <p> ,
+#FFFFFF;   - HERO NAME, BUTTON HERO, bottons menu:hover ;
+#F4F4FD;   - STUDIO(footer), p(footer) .
 
 background colors:
 
-#E5E5E5 
+#E5E5E5; 
 
-#E7E9FC - top line (header) borders;
-#2E2F42 - hero image;
-#F4F4FD - section 3
-#FFFFFF - body 
+#E7E9FC; - top line (header) borders nav;
+#2E2F42; - hero image;
+#F4F4FD; - section 3
+#FFFFFF; - body 
 
 */
