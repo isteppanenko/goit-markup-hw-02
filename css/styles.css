@@ -111,7 +111,7 @@ body {
   color: var(--hero-text-color);
 }
 .hero-btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -157,6 +157,9 @@ body {
 }
 .section-team {
   background-color: var(--team-section-bg-color);
+}
+.team-list {
+  background-color: var(--primary-bg-color);
 }
 
 /**
