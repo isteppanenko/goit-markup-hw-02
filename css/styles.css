@@ -2,6 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  /* examples */
+  width: max-content;
+  border: 2px solid red;
+  border-right-style: double;
+  margin: 20px;
+  padding: 50px;
 }
 /**
   |============================
@@ -196,9 +202,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   background-color: var(--portfolio-bg-btm-color);
   color: var(--portfolio-btm-text-color);
@@ -208,4 +211,17 @@ body {
 .portfolio-btm:focus {
   background-color: var(--portfolio-bg-btm-hover);
   color: var(--hover-portfolio-btm-color);
+}
+.bg-color {
+  padding: 15px;
+  background-color: teal;
+  border: 2px dashed black;
+}
+.section .container-btm {
+  height: 100px;
+  width: 100px;
+  border: 15px dashed red;
+  padding: 30px;
+  margin: 50px;
+  background-color: teal;
 }
